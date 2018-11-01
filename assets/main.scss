@@ -1,0 +1,61 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+main {
+    background: #fbfbf9;
+}
+
+.site-header {
+    min-height: 59px;
+    background-color: #8c1515;
+    border-top: none;
+    border-bottom: none;
+}
+
+.site-title {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.site-footer {
+    background-color: #4d4f53;
+    padding: 0 0;
+}
+
+.footer-col-wrapper {
+    color: #ffffff;
+    margin-left: 0;
+}
+
+.footer-col {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.footer-col {
+    width: 100%;
+    text-align: center;
+}
+
+table td, table {
+    border: 0;
+}
+
+/* override the default css */
+table tr:nth-child(even) {
+    background-color: inherit;
+}

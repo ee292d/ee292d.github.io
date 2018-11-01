@@ -1,0 +1,118 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: CS###/EE### Embedded Systems
+email: keyi@cs.stanford.edu
+description: >- # this means to ignore newlines until "baseurl:"
+    <p>This is primarily a project based class for students develop a project
+    using modern embedded systems methodologies.
+    This class will not focus on several very import low-level aspects of
+    embedded systems such as memory footprints, temperature resilience, etc.
+    </p><p>
+    The class will assume little knowledge on building web applications so we
+    will cover that in a fair amount of detail. The class however will assume
+    some level of proficiency in Python and C, electrical signals, etc. 
+    </p>
+baseurl: "/course-website/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+footer_text:
+    Website maintained by Zain Asgar and Keyi Zhang.
+
+# Build settings
+markdown: kramdown
+theme: minima
+# plugins:
+#  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Course schedule
+weeks:
+    - 
+        day1: Intros, Objectives, etc.
+        day1-intro: >
+            In this class we will discuss overall architecture, evolution of
+            embedded systems and how connected devices can be used to build
+            a complex system.
+        day2: Introduction to particle.io system.
+        day2-intro: >
+            Understand high level IoT style architecture. Be able to build
+            simple particle program: Control blinking frequency of an LED based
+            on events to the particle cloud. Report back measured temperature
+            back to the particle cloud as events.
+    -
+        day1: Web application design
+        day1-intro: >
+            Basics of Javascript.  What is an API and how to define it? What is
+            serverless architecture? 
+        day2: Build a simple web application that can control the particle.io
+              board.
+        day2-intro: >
+            The end result is the same as last week except we can now
+            directly control things based on a user interface.
+    -
+        day1: Event processing and storage.
+        day1-intro: How to store and process events. 
+        day2: >
+            Build a web interface that will allow querying the temperature data
+            and statistics. 
+        day2-intro: >
+            Build an interface module that can show statistics on an
+            2-line LCD display.
+    -
+        day1: Introduction to machine learning
+        day1-intro: >
+            High level overview of ML and how it can be used to process data.
+        day2: TBD
+        day2-intro: TBD
+    -
+        day1: Introduction to computer vision
+        day1-intro: >
+            How to process images to build classifiers and object detectors. 
+        day2: Computer vision in practice
+        day2-intro: >
+            Use a template raspberry pi camera to find classes of objects.
+    -
+        day1: Text/Voice interfaces.
+        day1-intro: >
+            TBD
+        day2: TBD
+        day2-intro: >
+            Have and NLP interface that will allow control of the particle.io
+            board
+    -
+        day1: "Guest Lecture: Pete Warden?"
+        day1-intro: >
+            Building tensorflow for embedded systems.
+        day2: Project help
+    -   day1: "Guest Lecture: Nayeem Islam?"
+        day1-intro: Challenges in building large scale embedded systems.
+        day2: Project help
+    -   day1: Project help
+        day2: Project help
+    -   day1: Project demo
+        day2: Project demo
+

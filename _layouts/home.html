@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  {{ content }}
+  <h2>Course Information</h2>
+  {{ site.description }}
+  <br>
+  <h2>Instructors and TAs</h2>
+  <div>
+      <div>
+      <img src="http://droidlessons.com/wp-content/uploads/2016/11/Cogn_mode.png"
+           width="100px" height="100px" style="float:left; margin-right:20px;">
+      </div>
+      <div>
+          <h3>Zain Asgar</h3>
+          <div>Gates XXX</div>
+          <div>Office hours: XXXX</div>
+      </div>
+      <div style="clear:both"><br></div>
+      <div>
+      <img src="http://droidlessons.com/wp-content/uploads/2016/11/Cogn_mode.png"
+           width="100px" height="100px" style="float:left; margin-right:20px;">
+      </div>
+      <div>
+          <h3>Keyi Zhang</h3>
+          <div>Gates 356</div>
+          <div>Office hours: XXXX</div>
+      </div>
+      <div style="clear:both"><br></div>
+  </div>
+  <br>
+  <h2>Course Schedule</h2>
+  <table>
+  {% for week in site.weeks %}
+    <tr>
+    <td style="min-width: 6em;"><h3> Week {{ forloop.index }} </h3></td>
+    <td>
+        <p><b>{{ week.day1 }}</b>
+        <br>
+        {{ week.day1-intro }}
+        </p>
+    </td>
+    <tr>
+    <tr>
+    <td></td>
+    <td>
+        <p><b>{{ week.day2 }}</b>
+        <br>
+        {{ week.day2-intro }}
+        </p>
+    </td>
+    </tr>
+  {% endfor %}
+  </table>
+  <h2>Homework Assignments</h2>
+  <h3>HW Assignment 1</h3>
+  TBD
+  <h3>HW Assignment 2</h3>
+  TBD
+  <h3>HW Assignment</h3>
+  TBD
+</div>
