@@ -16,14 +16,16 @@
 title: CS###/EE### Embedded Systems
 email: keyi@cs.stanford.edu
 course-info: >- # this means to ignore newlines until "baseurl:"
-    <p>This is primarily a project based class for students develop a project
-    using modern embedded systems methodologies.
-    This class will not focus on several very import low-level aspects of
-    embedded systems such as memory footprints, temperature resilience, etc.
-    </p><p>
-    The class will assume little knowledge on building web applications so we
-    will cover that in a fair amount of detail. The class however will assume
-    some level of proficiency in Python and C, electrical signals, etc. 
+    <p>
+    This is a project-based class where students will learn how to build modern connected embedded systems
+    that utilize machine learning. The class briefly covers how to create embedded systems to cloud services
+    and dives into details of how to do edge and cloud-based machine learning on time-series and image data.
+    In the final project students are expected to produce a working system that improves the state of machine
+    learning on the edge or solves a useful task by combining many different connected components.
+    </p>
+    <p>
+    This class <b>will not</b> focus on several very import low-level aspects of embedded systems such as memory footprints,
+    temperature resilience, etc.
     </p>
 baseurl: "/course-website/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -52,57 +54,55 @@ theme: minima
 # Course schedule
 weeks:
     - 
-        day1: Intros, Objectives, etc.
-        day1-intro: >
-            In this class we will discuss overall architecture, evolution of
-            embedded systems and how connected devices can be used to build
-            a complex system.
-        day2: Introduction to particle.io system.
-        day2-intro: >
+        day1: Intros, Objectives, etc. Web application design
+        day1-intro: >-
+            In this class we will discuss overall architecture, evolution of embedded systems and how connected devices can be used to build a complex system.
+            We will also discuss basics of Javascript. What is an API and how to define it? What is serverless architecture? 
+        day2: Introduction to particle.io system
+        day2-intro: >-
             Understand high level IoT style architecture. Be able to build
-            simple particle program: Control blinking frequency of an LED based
+            simple particle program&#58; Control blinking frequency of an LED based
             on events to the particle cloud. Report back measured temperature
             back to the particle cloud as events.
     -
-        day1: Web application design
+        day1: Event processing
         day1-intro: >
-            Basics of Javascript.  What is an API and how to define it? What is
-            serverless architecture? 
-        day2: Build a simple web application that can control the particle.io
-              board.
+             Event processing and storage. How to store and process events.
+             Learn how to actually store the data and build processing pipelines to take action. 
+        day2: Build a web interface for data processing
         day2-intro: >
-            The end result is the same as last week except we can now
-            directly control things based on a user interface.
+            Build a web interface that will allow querying the temperature data and statistics. 
+            Anomaly detection for temperature sensor, send notifications via text/email.
     -
-        day1: Event processing and storage.
-        day1-intro: How to store and process events. 
-        day2: >
-            Build a web interface that will allow querying the temperature data
-            and statistics. 
+        day1: Introduction to CNN
+        day1-intro: >
+            Introduction to convolutional neural network (CNN). We will discuss classical architectures like alexnet, mobilenet, resetnet.
+            We will also introduce problems such as classification, detection, and segmentation. 
+        day2: Introduction to CNN
         day2-intro: >
-            Build an interface module that can show statistics on an
-            2-line LCD display.
+            Lecture continued. No Lab.
     -
-        day1: Introduction to machine learning
+        day1: Challenges with image processing on embedded systems
         day1-intro: >
-            High level overview of ML and how it can be used to process data.
-        day2: TBD
-        day2-intro: TBD
-    -
-        day1: Introduction to computer vision
-        day1-intro: >
-            How to process images to build classifiers and object detectors. 
-        day2: Computer vision in practice
+            Accelerators and quantized architectures.
+        day2: Fun with Raspberry Pi
         day2-intro: >
             Use a template raspberry pi camera to find classes of objects.
+            Learn to train new classifiers based on transfer learning. 
     -
-        day1: Text/Voice interfaces.
+        day1: Introduction to LSTM based neural networks and anomaly detection
+        day1-intro: >
+            TBD
+        day2: Text/Voice interfaces.
+        day2-intro: >
+            TBD
+    -
+        day1: TBD
         day1-intro: >
             TBD
         day2: TBD
         day2-intro: >
-            Have and NLP interface that will allow control of the particle.io
-            board
+            TBD
     -
         day1: "Guest Lecture: Pete Warden?"
         day1-intro: >
@@ -115,4 +115,13 @@ weeks:
         day2: Project help
     -   day1: Project demo
         day2: Project demo
+
+homework:
+    - 
+        name: Temperature anomaly detection.
+    -
+        name: A smart lock implementation. Rpi + Camera to detect faces and notify user. 
+    -
+        name: TBD
+  
 

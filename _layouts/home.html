@@ -58,10 +58,8 @@ layout: default
   {% endfor %}
   </table>
   <h2>Homework Assignments</h2>
-  <h3>HW Assignment 1</h3>
-  TBD
-  <h3>HW Assignment 2</h3>
-  TBD
-  <h3>HW Assignment</h3>
-  TBD
+  {% for hw in site.homework %}
+  <h3>HW Assignment {{ forloop.index }} </h3>
+  <p> {{ hw.name }} </p>
+  {% endfor %}
 </div>
