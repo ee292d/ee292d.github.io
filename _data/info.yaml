@@ -1,0 +1,65 @@
+# Course schedule
+- 
+    day1: Intros, Objectives, etc. Web application design
+    day1-intro: >-
+        In this class we will discuss overall architecture, evolution of embedded systems and how connected devices can be used to build a complex system.
+        We will also discuss basics of Javascript. What is an API and how to define it? What is serverless architecture? 
+    day2: Introduction to particle.io system
+    day2-intro: >-
+        Understand high level IoT style architecture. Be able to build
+        simple particle program&#58; Control blinking frequency of an LED based
+        on events to the particle cloud. Report back measured temperature
+        back to the particle cloud as events.
+-
+    day1: Event processing
+    day1-intro: >
+         Event processing and storage. How to store and process events.
+         Learn how to actually store the data and build processing pipelines to take action. 
+    day2: Build a web interface for data processing
+    day2-intro: >
+        Build a web interface that will allow querying the temperature data and statistics. 
+        Anomaly detection for temperature sensor, send notifications via text/email.
+-
+    day1: Introduction to CNN
+    day1-intro: >
+        Introduction to convolutional neural network (CNN). We will discuss classical architectures like alexnet, mobilenet, resetnet.
+        We will also introduce problems such as classification, detection, and segmentation. 
+    day2: Introduction to CNN
+    day2-intro: >
+        Lecture continued. No Lab.
+-
+    day1: Challenges with image processing on embedded systems
+    day1-intro: >
+        Accelerators and quantized architectures.
+    day2: Fun with Raspberry Pi
+    day2-intro: >
+        Use a template raspberry pi camera to find classes of objects.
+        Learn to train new classifiers based on transfer learning. 
+-
+    day1: Introduction to LSTM based neural networks and anomaly detection
+    day1-intro: >
+        TBD
+    day2: Text/Voice interfaces.
+    day2-intro: >
+        TBD
+-
+    day1: TBD
+    day1-intro: >
+        TBD
+    day2: TBD
+    day2-intro: >
+        TBD
+-
+    day1: "Guest Lecture: Pete Warden?"
+    day1-intro: >
+        Building tensorflow for embedded systems.
+    day2: Project help
+-   day1: "Guest Lecture: Nayeem Islam?"
+    day1-intro: Challenges in building large scale embedded systems.
+    day2: Project help
+-   day1: Project help
+    day2: Project help
+-   day1: Project demo
+    day2: Project demo
+
+

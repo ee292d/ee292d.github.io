@@ -36,7 +36,7 @@ layout: default
   <br>
   <h2>Course Schedule</h2>
   <table>
-  {% for week in site.weeks %}
+  {% for week in site.data.info %}
     <tr>
     <td style="min-width: 6em;"><h3> Week {{ forloop.index }} </h3></td>
     <td>
@@ -58,8 +58,8 @@ layout: default
   {% endfor %}
   </table>
   <h2>Homework Assignments</h2>
-  {% for hw in site.homework %}
-  <h3>HW Assignment {{ forloop.index }} </h3>
-  <p> {{ hw.name }} </p>
+  {% for hw in site.data.homework %}
+  <h3>HW Assignment {{ forloop.index }}: {{ hw.name  }} </h3>
+  <p> {{ hw.info }} </p>
   {% endfor %}
 </div>
