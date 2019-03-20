@@ -27,7 +27,7 @@ course-info: >- # this means to ignore newlines until "baseurl:"
     This class <b>will not</b> focus on several very import low-level aspects of embedded systems such as memory footprints,
     temperature resilience, etc.
     </p>
-baseurl: "/course-website/" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 footer_text:
