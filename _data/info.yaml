@@ -50,11 +50,11 @@
     day2-intro: >
         TBD
 -
-    day1: "Guest Lecture: Pete Warden?"
+    day1: "Guest Lecture"
     day1-intro: >
         Building tensorflow for embedded systems.
     day2: Project help
--   day1: "Guest Lecture: Nayeem Islam?"
+-   day1: "Guest Lecture"
     day1-intro: Challenges in building large scale embedded systems.
     day2: Project help
 -   day1: Project help
