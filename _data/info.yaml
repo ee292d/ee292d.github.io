@@ -26,7 +26,7 @@
     day2-intro: >
         Lecture continued. No Lab.
 -
-    day1: Challenges with image processing on embedded systems
+    day1: Transfer learning and model distill
     day1-intro: >
         Accelerators and quantized architectures.
     day2: Fun with Raspberry Pi
@@ -34,27 +34,28 @@
         Use a template raspberry pi camera to find classes of objects.
         Learn to train new classifiers based on transfer learning. 
 -
-    day1: Introduction to LSTM based neural networks and anomaly detection
+    day1: Continue - From lecture week 4
     day1-intro: >
-        TBD
-    day2: Text/Voice interfaces.
+        Lecture continued from week 4.
+    day2: Preliminary Project Proposal discussion
     day2-intro: >
-        TBD
+        Discuss your project proposal with your classmates and us.
 -
-    day1: TBD
+    day1: LSTM and anomaly detection
     day1-intro: >
-        TBD
-    day2: TBD
+        Introduction to LSTM based neural networks and anomaly detection.
+    day2: Lecture Continued
     day2-intro: >
-        TBD
+        Lecture Continued - No lab.
 -
     day1: "Guest Lecture"
     day1-intro: >
         Building tensorflow for embedded systems.
     day2: Project help
 -   day1: "Guest Lecture"
-    day1-intro: Challenges in building large scale embedded systems.
-    day2: Project help
+    day2: 10 minutes in class show and tell
+    day2-intro: >
+        Demonstrate your project prototype and receive feedbacks.
 -   day1: Project help
     day2: Project help
 -   day1: Project demo
