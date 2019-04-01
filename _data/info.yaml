@@ -6,19 +6,17 @@
         We will also discuss basics of Javascript. What is an API and how to define it? What is serverless architecture? 
     day2: Introduction to particle.io system
     day2-intro: >-
-        Understand high level IoT style architecture. Be able to build
-        simple particle program&#58; Control blinking frequency of an LED based
-        on events to the particle cloud. Report back measured temperature
-        back to the particle cloud as events.
+        Understand high level IoT style architecture. Setting up the Particle
+        board and be able to build
+        simple particle program&#58; Control blinking frequency of an LED.
 -
     day1: Event processing
     day1-intro: >
          Event processing and storage. How to store and process events.
          Learn how to actually store the data and build processing pipelines to take action. 
-    day2: Build a web interface for data processing
+    day2: Building systems for temperature monitoring
     day2-intro: >
-        Build a web interface that will allow querying the temperature data and statistics. 
-        Anomaly detection for temperature sensor, send notifications via text/email.
+        Build a system that will allow querying the temperature data and statistics. 
 -
     day1: Introduction to CNN
     day1-intro: >
