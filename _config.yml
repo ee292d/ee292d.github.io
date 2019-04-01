@@ -24,7 +24,7 @@ course-info: >- # this means to ignore newlines until "baseurl:"
     learning on the edge or solves a useful task by combining many different connected components.
     </p>
     <p>
-    This class <b>will not</b> focus on several very import low-level aspects of embedded systems such as memory footprints,
+    This class <b>will not</b> focus on several very important low-level aspects of embedded systems such as memory footprints,
     temperature resilience, etc.
     </p>
 baseurl: "/" # the subpath of your site, e.g. /blog

@@ -2,7 +2,7 @@
         name: Temperature monitoring system with Particle boards and GCP
         info: >-
             We will build an end-to-end system with temperature sensors, Particle IO,
-            and Google Cloud Platform. At the end of the lab, we will deploy the IoT application
+            and Google Cloud Platform. At the end of the homework, we will deploy the IoT application
             to the App Engine and visualize the result.
     -
         name: Smart Camera with RPi
@@ -10,5 +10,3 @@
             We will build a CNN fine-tuned for face detection and then deploy it on a Raspberry Pi
             + Camera. The Smart Camera will send a snapshot to the GCP whenever it detects a face,
             and then notifies the users.
-    -
-        name: TBD
