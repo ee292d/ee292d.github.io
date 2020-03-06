@@ -17,21 +17,21 @@ title: "EE292D: Machine learning on Embedded Systems"
 email: keyi@cs.stanford.edu
 course-info: >- # this means to ignore newlines until "baseurl:"
     <p>
-    This is a project-based class where students will learn how to build modern connected embedded systems
-    that utilize machine learning. The class briefly covers how to create embedded systems to cloud services
-    and dives into details of how to do edge and cloud-based machine learning on time-series and image data.
-    In the final project students are expected to produce a working system that improves the state of machine
-    learning on the edge or solves a useful task by combining many different connected components.
+    This is a project-based class where students will learn how to develop machine learning models for execution in
+    resource constrained environments such as embedded systems. The primary target is embedded devices such as Arduino,
+    Raspberry PI, Jetson, or Edge TPUs. 
     </p>
-    <p>
-    This class <b>will not</b> focus on several very important low-level aspects of embedded systems such as memory footprints,
-    temperature resilience, etc.
+    The class is broken into lectures/readings, labs/assignments, and a final project. Throughout this class, students will
+    learn techniques such as model quantization, knowledge distillation and hybrid (embedded/cloud inferencing), which are
+    instrumental for building efficient machine learning models that can run on power or resource-constrained devices.
+    This class differs from other machine learning classes offered at Stanford due to the focus of applying these models
+    for applications that require running on embedded hardware or other resource-constrained environments. 
     </p>
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 footer_text:
-    Website maintained by Zain Asgar and Keyi Zhang.
+    Website maintained by Keyi Zhang.
 
 # Build settings
 markdown: kramdown

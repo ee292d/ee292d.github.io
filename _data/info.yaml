@@ -1,64 +1,32 @@
 # Course schedule
 - 
-    day1: Intros, Objectives, etc. Web application design
+    day1: Intros, objectives, etc.
     day1-intro: >-
-        In this class we will discuss overall architecture, evolution of embedded systems and how connected devices can be used to build a complex system.
-        We will also discuss basics of Javascript. What is an API and how to define it? What is serverless architecture? 
-    day2: Introduction to particle.io system
-    day2-intro: >-
-        Understand high level IoT style architecture. Setting up the Particle
-        board and be able to build
-        simple particle program&#58; Control blinking frequency of an LED.
+        Course logistics. Introduction on machine learning and its standard training and deployment practice.
+        Introduction to TFLite.
 -
-    day1: Event processing
+    day1: Introduction to CNN and LSTM
     day1-intro: >
-         Event processing and storage. How to store and process events.
-         Learn how to actually store the data and build processing pipelines to take action. 
-    day2: Building systems for temperature monitoring
-    day2-intro: >
-        Build a system that will allow querying the temperature data and statistics. 
+         Introduction to CNN and LSTM and their mathematical implementation.
+         Various applications based on CNN and LSTM and their general architecture
 -
-    day1: Introduction to CNN
+    day1: DNN on hardware
     day1-intro: >
-        Introduction to convolutional neural network (CNN). We will discuss classical architectures like alexnet, mobilenet, resetnet.
-        We will also introduce problems such as classification, detection, and segmentation. 
-    day2: Introduction to CNN
-    day2-intro: >
-        Lecture continued. No Lab.
+        Model quantization. Hardware related acceleration, such as SIMD. Introduction on fixed-point, N-nary, FP16, and BFloat.
 -
-    day1: Transfer learning and model distill
+    day1: Efficient model design
     day1-intro: >
-        Accelerators and quantized architectures.
-    day2: Fun with Raspberry Pi
-    day2-intro: >
-        Use a template raspberry pi camera to find classes of objects.
-        Learn to train new classifiers based on transfer learning. 
+        Discussion on efficient model design, such as MobileNet and YOLO.
+        Model compression and pruning.
 -
-    day1: Continue - From lecture week 4
+    day1: Edge accelerator
     day1-intro: >
-        Lecture continued from week 4.
-    day2: Preliminary Project Proposal discussion
-    day2-intro: >
-        Discuss your project proposal with your classmates and us.
--
-    day1: LSTM and anomaly detection
-    day1-intro: >
-        Introduction to LSTM based neural networks and anomaly detection.
-    day2: Lecture Continued
-    day2-intro: >
-        Lecture Continued - No lab.
--
-    day1: "Guest Lecture"
-    day1-intro: >
-        Building tensorflow for embedded systems.
-    day2: Project help
+        Introduction to edge machine learning accelerator, such as edge TPU.
+        Discussion on accelerator design and its impact on model design and performance.
+
 -   day1: "Guest Lecture"
-    day2: 10 minutes in class show and tell
-    day2-intro: >
-        Demonstrate your project prototype and receive feedbacks.
+-   day1: "Guest Lecture"
+-   day1: "Guest Lecture"
+
 -   day1: Project help
-    day2: Project help
 -   day1: Project demo
-    day2: Project demo
-
-
