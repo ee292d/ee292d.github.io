@@ -61,4 +61,30 @@ layout: default
   <h3>HW Assignment {{ forloop.index }}: {{ hw.name  }} </h3>
   <p> {{ hw.info }} </p>
   {% endfor %}
+  <br />
+  <h2>Grading</h2>
+  <b>NOTE: For Spring 2020 the class is S/N because of COVID-19</b>
+  <br /><br />
+  {% for g in site.data.grades %}
+  <h3> {{ g.name  }} - {{g.percent}}%</h3>
+  <ul>
+    {% for d in g.details %}
+    <li>{{ d }}</li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+  <br/>
+  <h2>Important Dates</h2>
+  <table>
+    <tr><th>Date</th><th>What's Due<th</tr>
+    {% for d in site.data.important_dates %}
+    <tr>
+      <td>{{ d.date }}</td>
+      <td>{{ d.info }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+
+
 </div>
