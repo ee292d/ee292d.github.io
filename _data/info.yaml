@@ -12,19 +12,21 @@
 -
     day1: DNN on hardware
     day1-intro: >
-        Model quantization. Hardware related acceleration, such as SIMD. Introduction on fixed-point, N-nary, FP16, and BFloat.
+        Hardware related acceleration, such as SIMD.
+-
+    day1: DNN on hardware (continued)
+    day1-intro: >
+        Model quantization. 
+        Discussion on efficient model design, such as MobileNet and YOLO.
 -
     day1: Efficient model design
     day1-intro: >
-        Discussion on efficient model design, such as MobileNet and YOLO.
-        Model compression and pruning.
+        Model compression and pruning. Introduction on fixed-point, N-nary, FP16, and BFloat.
 -
     day1: Edge accelerator
     day1-intro: >
         Introduction to edge machine learning accelerator, such as edge TPU.
         Discussion on accelerator design and its impact on model design and performance.
-
--   day1: "Guest Lecture"
 
 -   day1: "Guest Lecture"
 
