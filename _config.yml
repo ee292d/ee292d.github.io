@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "EE292D: Machine learning on Embedded Systems"
+title: "EE292D/CS329E: Machine learning on Embedded Systems"
 email: keyi@cs.stanford.edu
 course-info: >- # this means to ignore newlines until "baseurl:"
     <p>
@@ -31,7 +31,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ee292d.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 footer_text:
-    Website maintained by EE292D teaching staff.
+    Website maintained by EE292D/CS329E teaching staff.
 
 # Build settings
 markdown: kramdown

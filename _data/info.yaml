@@ -12,12 +12,12 @@
 -
     day1: DNN on hardware
     day1-intro: >
-        Hardware related acceleration, such as SIMD.
+        Model quantization. 
+        Discussion on efficient model design, such as MobileNet and YOLO.
 -
     day1: DNN on hardware (continued)
     day1-intro: >
-        Model quantization. 
-        Discussion on efficient model design, such as MobileNet and YOLO.
+        Hardware related acceleration, such as SIMD.
 -
     day1: Efficient model design
     day1-intro: >
@@ -30,6 +30,6 @@
 
 -   day1: "Guest Lecture"
 
--   day1: "No Class - Memorial Day"
+-   day1: "Guest Lecture"
 
--   day1: Project Presos/Demo
+-   day1: Project Demo
