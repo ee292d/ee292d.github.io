@@ -41,11 +41,11 @@ layout: default
         </div>
         <div style="clear:both"><br></div>
       <div>
-        <img src="/assets/HangQ.jpg"
+        <img src="/assets/AnkitaN.jpg"
              width="100px" height="100px" style="float:left; margin-right:20px; border-radius:50%;">
         </div>
         <div>
-            <h3>Hang Qiu</h3>
+            <h3>Ankita Nayak</h3>
             <div>Office hours: TBA</div>
         </div>
         <div style="clear:both"><br></div>
@@ -55,7 +55,7 @@ layout: default
       </div>
       <div>
           <h3>Keyi Zhang</h3>
-          <div>Gates 356</div>
+          <div>Gates 417</div>
           <div>Office hours: TBA</div>
       </div>
       <div style="clear:both"><br></div>
@@ -71,6 +71,13 @@ layout: default
         <br>
         {{ week.day1-intro }}
         </p>
+
+        {% if week.day2 %}
+        <p><b>{{ week.day2 }}</b>
+        <br>
+        {{ week.day2-intro }}
+        </p>
+        {% endif %}
     </td>
     <tr>
   {% endfor %}

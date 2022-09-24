@@ -1,10 +1,12 @@
     - 
-        name: Machine Learning with Arduino and Edge TPU
+        name: Machine Learning with Raspberry Pi Pico
         info: >-
-            We will build a speech recognition model on Arduino as will as an image detector on
-            Google Edge TPU.
+            We will build a speech recognition model on Raspberry Pi Pico
     -
-        name: Micro DNN (udnn) framework with SIMD
+        name: MLExray
         info: >-
-            We will build a feature-rich DNN framework from scratch with SIMD support and deploy
-            it on ARM CPU.
+            Pick and model and use MLexray to deploy and monitor it
+    -
+        name: Build your own optimized ML inference engine for the edge
+        info: >-
+            We will build a feature-rich DNN framework from scratch with SIMD and quantization

@@ -1,34 +1,51 @@
 # Course schedule
 - 
     day1: Intros, objectives, etc.
-    day1-intro: >-
-        Course logistics. Introduction on machine learning and its standard training and deployment practice.
-        Introduction to TFLite.
--
-    day1: Introduction to CNN and LSTM
     day1-intro: >
-         Introduction to CNN and LSTM and their mathematical implementation.
-         Various applications based on CNN and LSTM and their general architecture
+        Course logistics. Introduction on machine learning and its standard training and deployment practice.
+        Introduction to TFLite. First embedded project!
+    day2: Introduction to CNN and LSTM
+    day2-intro:
+        Introduction to CNN and LSTM and their mathematical implementation.
+        Various applications based on CNN and LSTM and their general architecture.
+-
+    day1: Deployment
+    day1-intro: >
+        Deploy models on the edge.
+    day2: Deployment continued
+    day2-intro: >
+        Lab for MLExray.
+-
+    day1: Transfer and federated learning
+    day1-intro: >
+        Transfer and federated learning.
+    day2: Project introduction
+    day2-intro: >
+        Project introduction and homework assignment 3.
 -
     day1: DNN on hardware
     day1-intro: >
-        Model quantization. 
-        Discussion on efficient model design, such as MobileNet and YOLO.
+        Hardware related  acceleration, such as SIMD.
+        Introduction on fixed-point, N-nary, FP16, and BFloat.
+    day2: Lab for SIMD
+    day2-intro: >
+        Lab for SIMD.
 -
     day1: DNN on hardware (continued)
     day1-intro: >
-        Hardware related acceleration, such as SIMD.
+        Model size and quantization
+    day2: Lab for quantization
+    day2-intro: >
+        Lab for quantization and project proposal feedback
 -
     day1: Efficient model design
     day1-intro: >
-        Model compression and pruning. Introduction on fixed-point, N-nary, FP16, and BFloat.
+        Discussion on efficient model design, such as MobileNet and YOLO.
+        Model compression and pruning 
 -
-    day1: Edge accelerator
+    day1: 10-min in class show and tell
     day1-intro: >
-        Introduction to edge machine learning accelerator, such as edge TPU.
         Discussion on accelerator design and its impact on model design and performance.
-
--   day1: "Guest Lecture"
 
 -   day1: "Guest Lecture"
 

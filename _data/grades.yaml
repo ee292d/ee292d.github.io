@@ -1,20 +1,20 @@
 -
   name: Homework Assignments
-  percent: 30
+  percent: 50
   details: 
-    - Two Homework Sets
+    - Three Homework Sets
 
 - 
   name: Reading Assignments/Class Participation
-  percent: 20
+  percent: 10
   details:
     - Reading Reflections
     - Lead group discussions on each paper- 
   
 -
   name: Final Project
-  percent: 50
+  percent: 40
   details:
-    - Proposal - 10% (2% for initial, 8% for final)
+    - Proposal - 5% (2% for initial, 3% for final)
     - Write up & Presentation - 20%
-    - Results - 20% (relative to proposed)
+    - Results - 10% (relative to proposed)
