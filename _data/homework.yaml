@@ -1,12 +1,18 @@
     - 
-        name: Machine Learning with Raspberry Pi Pico
+        name: Lab 0: Set up your Raspberry Pi
         info: >-
-            We will build a speech recognition model on Raspberry Pi Pico
+            This tutorial shows how to set up your laptop and Raspberry Pi 5 board to run machine learning labs in EE292D.
     -
-        name: MLExray
+        name: Lab 1: Run a Large Language Model
         info: >-
-            Pick and model and use MLexray to deploy and monitor it
+            This lab will show you how to run an LLM locally on your Raspberry Pi 5.
     -
-        name: Build your own optimized ML inference engine for the edge
+        name: Lab 2: Classify Images
         info: >-
-            We will build a feature-rich DNN framework from scratch with SIMD and quantization
+            This lab will show you how to run an image classification model on your Raspberry Pi 5, and fine-tune it to recognize different kinds of objects.
+
+    -
+        name: Lab 3: Locate People and Objects
+        info: >-
+            This lab will show you how to run pretrained models to spot people, analyze their poses, and locate arbitrary objects in images.
+
