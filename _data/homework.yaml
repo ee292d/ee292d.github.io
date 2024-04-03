@@ -1,17 +1,24 @@
     - 
-        name: "Lab 0: Set up your Raspberry Pi"
+        name: "Set up your Raspberry Pi"
         info: >-
             This tutorial shows how to set up your laptop and Raspberry Pi 5 board to run machine learning labs in EE292D.
     -
-        name: "Lab 1: Run a Large Language Model"
+        name: "Run a Large Language Model"
         info: >-
             This lab will show you how to run an LLM locally on your Raspberry Pi 5.
     -
-        name: "Lab 2: Classify Images"
+        name: "Classify Images"
         info: >-
             This lab will show you how to run an image classification model on your Pi, and fine-tune it to recognize different kinds of objects.
     -
-        name: "Lab 3: Locate People and Objects"
+        name: "Locate People and Objects"
         info: >-
             This lab will show you how to run pretrained models to spot people, analyze their poses, and locate arbitrary objects in images.
-
+    -
+        name: "Recognize and Generate Speech"
+        info: >-
+            This lab will show how to run an open source speech to text model on your Pi, connect it to your large language model, and speak the answers.
+    -
+        name: "Fine Tune Large Language Model"
+        info: >-
+            This lab will show you how to fine tune an LLM for a custom task and run it on your Pi.
