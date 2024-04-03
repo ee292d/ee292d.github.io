@@ -8,26 +8,26 @@
     day2-intro:
         Board setup, deploy a large language model on the Pi. First embedded project!
 -
-    day1: Introduction to CNN and Tranformer models
+    day1: Introduction to CNN and tranformer models
     day1-intro: >
-        Introduction to CNN and LSTM and their mathematical implementation and general architecture.
+        Introduction to CNN and transformer and their mathematical implementation and general architecture.
     day2: Labs
     day2-intro: >
-        Classify images, locate people and objects
+        Classify images, locate people and objects.
 -
     day1: ML model training and fine-tuning
     day1-intro: >
         Frameworks available and recommended for training ML models. Model fine-tuning techninques like LoRA, transfer learning etc.
     day2: Labs
     day2-intro: >
-        Recognize speech, fine tune an LLM
+        Recognize speech, fine tune an LLM.
 -
     day1: Finding and evaluating datasets
     day1-intro: >
         Finding and evaluating datasets.
     day2: Labs
     day2-intro: >
-        Using tools (like Galileo) to examine a common public dataset
+        Using tools (like Galileo) to examine a common public dataset.
 -
     day1: ML model optimization
     day1-intro: >
@@ -42,23 +42,23 @@
         Tools for training. 
     day2: Labs
     day2-intro: >
-        Train ImageNet model on a Colab notebook 
+        Train ImageNet model on a Colab notebook.
 -
     day1: Guest lecture
     day2: Labs
     day2-intro: >
-        Project debugging
+        Project debugging.
 
 -   day1: Hardware for DNN
     day1-intro: >
         Discussion on accelerator design and its impact on model design and performance.
     day2: Labs
     day2-intro: >
-        Project debugging
+        Project debugging.
 
 -   day1: MLOps
     day1-intro: >
         ML Ops pipeline for automating and simplifying ML workflows. ML Observability. 
     day2: Project
     day2-intro: >
-        Final project presentation
+        Final project presentation.
