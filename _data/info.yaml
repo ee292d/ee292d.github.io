@@ -2,51 +2,63 @@
 - 
     day1: Intros, objectives, etc.
     day1-intro: >
-        Course logistics. Introduction on machine learning and its standard training and deployment practice.
-        Introduction to TFLite. First embedded project!
-    day2: Introduction to CNN and LSTM
+        Course logistics. Introduction to edge ML.
+        Introduction to ML frameworks. 
+    day2: Labs
     day2-intro:
-        Introduction to CNN and LSTM and their mathematical implementation.
-        Various applications based on CNN and LSTM and their general architecture.
+        Board setup, deploy a large language model on the Pi. First embedded project!
 -
-    day1: Deployment
+    day1: Introduction to CNN and Tranformer models
     day1-intro: >
-        Deploy models on the edge.
-    day2: Deployment continued
+        Introduction to CNN and LSTM and their mathematical implementation and general architecture.
+    day2: Labs
     day2-intro: >
-        Lab for MLExray.
+        Classify images, locate people and objects
 -
-    day1: Transfer and federated learning
+    day1: ML model training and fine-tuning
     day1-intro: >
-        Transfer and federated learning.
-    day2: Project introduction
+        Frameworks available and recommended for training ML models. Model fine-tuning techninques like LoRA, transfer learning etc.
+    day2: Labs
     day2-intro: >
-        Project introduction and homework assignment 3.
+        Recognize speech, fine tune an LLM
 -
-    day1: DNN on hardware
+    day1: Finding and evaluating datasets
     day1-intro: >
-        Hardware related  acceleration, such as SIMD.
-        Introduction on fixed-point, N-nary, FP16, and BFloat.
-    day2: Lab for SIMD
+        Finding and evaluating datasets.
+    day2: Labs
     day2-intro: >
-        Lab for SIMD.
+        Using tools (like Galileo) to examine a common public dataset
 -
-    day1: DNN on hardware (continued)
+    day1: ML model optimization
     day1-intro: >
-        Model size and quantization
-    day2: Lab for quantization
+        Approximations for neural networks. Model optimization techniques like quantization, pruning. 
+    day2: Labs
     day2-intro: >
-        Lab for quantization and project proposal feedback
+        We’ll demonstrate how to convert a pre-trained computer vision model to eight bits. 
 -
-    day1: Efficient model design
+    day1: ML model training in practice
     day1-intro: >
-        Discussion on efficient model design, such as MobileNet and YOLO.
-        Model compression and pruning 
+        Fundamentals about training in practice, problems encountered during training. 
+        Tools for training. 
+    day2: Labs
+    day2-intro: >
+        Train ImageNet model on a Colab notebook 
 -
-    day1: 10-min in class show and tell
+    day1: Guest lecture
+    day2: Labs
+    day2-intro: >
+        Project debugging
+
+-   day1: Hardware for DNN
     day1-intro: >
         Discussion on accelerator design and its impact on model design and performance.
+    day2: Labs
+    day2-intro: >
+        Project debugging
 
--   day1: "Guest Lecture"
-
--   day1: Project Demo
+-   day1: MLOps
+    day1-intro: >
+        ML Ops pipeline for automating and simplifying ML workflows. ML Observability. 
+    day2: Project
+    day2-intro: >
+        Final project presentation
