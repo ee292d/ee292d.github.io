@@ -1,7 +1,7 @@
     - 
-        name: Machine Learning with Raspberry Pi Pico
+        name: Lab0: Set up your Raspberry Pi
         info: >-
-            We will build a speech recognition model on Raspberry Pi Pico
+            This tutorial shows how to set up your laptop and Raspberry Pi 5 board to run machine learning labs in EE292D.
     -
         name: MLExray
         info: >-
