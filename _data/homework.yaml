@@ -10,7 +10,6 @@
         name: Lab 2: Classify Images
         info: >-
             This lab will show you how to run an image classification model on your Raspberry Pi 5, and fine-tune it to recognize different kinds of objects.
-
     -
         name: Lab 3: Locate People and Objects
         info: >-
