@@ -1,20 +1,21 @@
 -
-  name: Homework Assignments
-  percent: 50
+  name: Labs
+  percent: 30
   details: 
-    - Three Homework Sets
+    - ~5 lab that we will work through in the second class each week
 
 - 
   name: Reading Assignments/Class Participation
   percent: 10
   details:
     - Reading Reflections
-    - Lead group discussions on each paper- 
+    - Lead group discussions on each paper
+    - Graded on participation and write-ups
   
 -
   name: Final Project
-  percent: 40
+  percent: 60
   details:
-    - Proposal - 5% (2% for initial, 3% for final)
-    - Write up & Presentation - 20%
-    - Results - 10% (relative to proposed)
+    - Proposal - 10% (2% for initial, 8% for final)
+    - Write up & Presentation - 30%
+    - Results - 20% (relative to proposed)
