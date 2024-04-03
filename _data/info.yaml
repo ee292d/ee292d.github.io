@@ -32,7 +32,7 @@
     day1: ML model optimization
     day1-intro: >
         Approximations for neural networks. Model optimization techniques like quantization, pruning. 
-    day2: Lab
+    day2: Labs
     day2-intro: >
         We’ll demonstrate how to convert a pre-trained computer vision model to eight bits. 
 -
@@ -40,25 +40,25 @@
     day1-intro: >
         Fundamentals about training in practice, problems encountered during training. 
         Tools for training. 
-    day2: Lab
+    day2: Labs
     day2-intro: >
         Train ImageNet model on a Colab notebook 
 -
     day1: Guest lecture
-    day2: Lab
+    day2: Labs
     day2-intro: >
         Project debugging
 
 -   day1: Hardware for DNN
     day1-intro: >
         Discussion on accelerator design and its impact on model design and performance.
-    day2: Lab
+    day2: Labs
     day2-intro: >
         Project debugging
 
 -   day1: MLOps
     day1-intro: >
         ML Ops pipeline for automating and simplifying ML workflows. ML Observability. 
-    day2: Lab
+    day2: Project
     day2-intro: >
         Final project presentation
