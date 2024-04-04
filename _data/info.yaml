@@ -10,7 +10,7 @@
 -
     day1: Introduction to CNN and tranformer models
     day1-intro: >
-        Introduction to CNN and transformer and their mathematical implementation and general architecture.
+        Introduction to CNN and transformer models and their mathematical implementation and general architecture.
     day2: Labs
     day2-intro: >
         Classify images, locate people and objects.
