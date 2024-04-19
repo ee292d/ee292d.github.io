@@ -15,9 +15,9 @@
     day2-intro: >
         Classify images, locate people and objects.
 -
-    day1: ML model training and fine-tuning
+    day1: ML model training and fine-tuning techniques
     day1-intro: >
-        Frameworks available and recommended for training ML models. Model fine-tuning techninques like LoRA, transfer learning etc.
+         ML model training, fine-tuning with transfer learning, multi-task learning
     day2: Labs
     day2-intro: >
         Recognize speech, fine tune an LLM.
