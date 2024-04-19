@@ -17,7 +17,7 @@
 -
     day1: ML model training and fine-tuning techniques
     day1-intro: >
-         ML model training, fine-tuning with transfer learning, multi-task learning
+         ML model training, fine-tuning with transfer learning, multi-task learning.
     day2: Labs
     day2-intro: >
         Recognize speech, fine tune an LLM.
