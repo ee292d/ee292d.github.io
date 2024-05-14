@@ -22,43 +22,41 @@
     day2-intro: >
         Recognize speech, fine tune an LLM.
 -
-    day1: Finding and evaluating datasets
+    day1: ML model quantization
     day1-intro: >
-        Finding and evaluating datasets.
+        Introduction to various data formats for ML. ML model quantization motivation, techniques. Quantization-aware training.
     day2: Labs
     day2-intro: >
         Using tools (like Galileo) to examine a common public dataset.
 -
-    day1: ML model optimization
+    day1: PEFT techniques and knowledge distillation
     day1-intro: >
-        Approximations for neural networks. Model optimization techniques like quantization, pruning. 
+        Parameter-Efficient Fine-Tuning (PEFT) techniques including LoRA, adapter layers. 
+        Knowledge distillation overview and techniques. 
     day2: Labs
     day2-intro: >
         We’ll demonstrate how to convert a pre-trained computer vision model to eight bits. 
 -
-    day1: ML model training in practice
-    day1-intro: >
-        Fundamentals about training in practice, problems encountered during training. 
-        Tools for training. 
-    day2: Labs
-    day2-intro: >
-        Train ImageNet model on a Colab notebook.
--
-    day1: Guest lecture
-    day2: Labs
-    day2-intro: >
-        Project debugging.
-
--   day1: Hardware for DNN
+    day1: Hardware for DNN
     day1-intro: >
         Discussion on accelerator design and its impact on model design and performance.
     day2: Labs
     day2-intro: >
-        Project debugging.
-
--   day1: MLOps
+        Train ImageNet model on a Colab notebook.
+-
+    day1: MLOps
     day1-intro: >
         ML Ops pipeline for automating and simplifying ML workflows. ML Observability. 
+    day2: Labs
+    day2-intro: >
+        Project debugging.
+
+-   day1: Guest lecture
+    day2: Labs
+    day2-intro: >
+        Final project presentation.
+
+-   day1: Memorial day (holiday, no class)
     day2: Project
     day2-intro: >
         Final project presentation.
