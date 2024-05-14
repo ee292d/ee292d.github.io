@@ -7,6 +7,7 @@
     day2: Labs
     day2-intro:
         Lab 0 - Set Up Your Raspberry Pi: Board setup, deploy a model on the Pi. First embedded project!
+        
         Lab 1 - Running a Large Language Model: Run an LLM locally on your Raspberry Pi 5.
         
 -
@@ -16,6 +17,7 @@
     day2: Labs
     day2-intro: >
         Lab 2 - Classify Images: Run an image classification model on your Pi, and fine-tune it to recognize different kinds of objects.
+        
         Lab 3 - Locate People and Objects: Run pretrained models to locate people and objects in images, optimize their latency, and train on custom classes.
         
 -
@@ -25,6 +27,7 @@
     day2: Labs
     day2-intro: >
         Lab 4 - Understand Speech: Recognize speech from an audio file or microphone using OpenAI's Whisper model.
+        
         Lab 5 - Translate Language: Translate text from one language into another.
   
 -
