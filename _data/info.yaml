@@ -6,28 +6,35 @@
         Introduction to ML frameworks. 
     day2: Labs
     day2-intro:
-        Board setup, deploy a large language model on the Pi. First embedded project!
+        Lab 0 - Set Up Your Raspberry Pi: Board setup, deploy a model on the Pi. First embedded project!
+        Lab 1 - Running a Large Language Model: Run an LLM locally on your Raspberry Pi 5.
+        
 -
     day1: Introduction to CNN and tranformer models
     day1-intro: >
         Introduction to CNN and transformer models and their mathematical implementation and general architecture.
     day2: Labs
     day2-intro: >
-        Classify images, locate people and objects.
+        Lab 2 - Classify Images: Run an image classification model on your Pi, and fine-tune it to recognize different kinds of objects.
+        Lab 3 - Locate People and Objects: Run pretrained models to locate people and objects in images, optimize their latency, and train on custom classes.
+        
 -
     day1: ML model training and fine-tuning techniques
     day1-intro: >
          ML model training, fine-tuning with transfer learning, multi-task learning.
     day2: Labs
     day2-intro: >
-        Recognize speech, fine tune an LLM.
+        Lab 4 - Understand Speech: Recognize speech from an audio file or microphone using OpenAI's Whisper model.
+        Lab 5 - Translate Language: Translate text from one language into another.
+  
 -
     day1: ML model quantization
     day1-intro: >
         Introduction to various data formats for ML. ML model quantization motivation, techniques. Quantization-aware training.
     day2: Labs
     day2-intro: >
-        Using tools (like Galileo) to examine a common public dataset.
+        Lab 6 - Fine-tune and Deploy a Large Language Model: Efficiently fine-tune a large language model, then prepare it for deployment on a Raspberry Pi.
+        
 -
     day1: PEFT techniques and knowledge distillation
     day1-intro: >
@@ -35,26 +42,28 @@
         Knowledge distillation overview and techniques. 
     day2: Labs
     day2-intro: >
-        We’ll demonstrate how to convert a pre-trained computer vision model to eight bits. 
+        Lab 7 - Understand Your Data: Find and understand the datasets needed to train your own models.
+        
 -
     day1: Hardware for DNN
     day1-intro: >
         Discussion on accelerator design and its impact on model design and performance.
     day2: Labs
     day2-intro: >
-        Train ImageNet model on a Colab notebook.
+        Project debugging.
+        
 -
     day1: MLOps
     day1-intro: >
         ML Ops pipeline for automating and simplifying ML workflows. ML Observability. 
     day2: Labs
     day2-intro: >
-        Project debugging.
+        Class project show and tell.
 
 -   day1: Guest lecture
     day2: Labs
     day2-intro: >
-        Final project presentation.
+        Project debugging.
 
 -   day1: Memorial day (holiday, no class)
     day2: Project
