@@ -22,3 +22,7 @@
         name: "Fine Tune Large Language Model"
         info: >-
             This lab will show you how to fine tune an LLM for a custom task and run it on your Pi.
+
+        name: "Understand Your Data"
+        info: >-
+            Find and understand the datasets needed to train your own models.
