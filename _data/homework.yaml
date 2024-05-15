@@ -14,15 +14,19 @@
         name: "Locate People and Objects"
         info: >-
             This lab will show you how to run pretrained models to spot people, analyze their poses, and locate arbitrary objects in images.
-    -
-        name: "Recognize and Generate Speech"
+     -
+        name: "Understand Speech"
         info: >-
-            This lab will show how to run an open source speech to text model on your Pi, connect it to your large language model, and speak the answers.
+            This lab will show you how to recognize speech from an audio file or microphone using OpenAI's Whisper model.      
+    -
+        name: "Translate Language"
+        info: >-
+            This lab will show how to translate text from one language into another.
     -
         name: "Fine Tune Large Language Model"
         info: >-
             This lab will show you how to fine tune an LLM for a custom task and run it on your Pi.
-
+    -
         name: "Understand Your Data"
         info: >-
-            Find and understand the datasets needed to train your own models.
+            This lab will show you how to find and understand the datasets needed to train your own models.
