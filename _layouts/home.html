@@ -83,7 +83,7 @@ layout: default
   </table>
   <h2>Lab Assignments</h2>
   {% for hw in site.data.homework %}
-  <h3>Lab Assignment {{ forloop.index }}: {{ hw.name  }} </h3>
+  <h3>Lab Assignment {{ forloop.index-1 }}: {{ hw.name  }} </h3>
   <p> {{ hw.info }} </p>
   {% endfor %}
   <br />
