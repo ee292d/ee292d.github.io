@@ -74,7 +74,7 @@ layout: default
         {% if week.day2 %}
         <p><b>{{ week.day2 }}</b>
         <br>
-        {{ week.day2-intro }}
+        {{ week.day2-intro | markdownify }}
         </p>
         {% endif %}
     </td>
