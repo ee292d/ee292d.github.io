@@ -14,7 +14,7 @@
         name: "Locate People and Objects"
         info: >-
             This lab will show you how to run pretrained models to spot people, analyze their poses, and locate arbitrary objects in images.
-     -
+    -
         name: "Understand Speech"
         info: >-
             This lab will show you how to recognize speech from an audio file or microphone using OpenAI's Whisper model.      
