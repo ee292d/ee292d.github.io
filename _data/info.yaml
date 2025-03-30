@@ -6,18 +6,18 @@
         Introduction to ML frameworks. 
     day2: Labs
     day2-intro: |
-        Lab 0 - Set Up Your Raspberry Pi: Board setup, deploy a model on the Pi. First embedded project!
+        - Lab 0 - Set Up Your Raspberry Pi: Board setup, deploy a model on the Pi. First embedded project!
         <br>
-        Lab 1 - Running a Large Language Model: Run an LLM locally on your Raspberry Pi 5.
+        - Lab 1 - Running a Large Language Model: Run an LLM locally on your Raspberry Pi 5.
         
 -
     day1: Introduction to CNN and tranformer models
     day1-intro: >
         Introduction to CNN and transformer models and their mathematical implementation and general architecture.
     day2: Labs
-    day2-intro: >
+    day2-intro: |
         Lab 2 - Classify Images: Run an image classification model on your Pi, and fine-tune it to recognize different kinds of objects.
-        
+         <br>
         Lab 3 - Locate People and Objects: Run pretrained models to locate people and objects in images, optimize their latency, and train on custom classes.
         
 -
@@ -25,9 +25,9 @@
     day1-intro: >
          ML model training, fine-tuning with transfer learning, multi-task learning.
     day2: Labs
-    day2-intro: >
+    day2-intro: |
         Lab 4 - Understand Speech: Recognize speech from an audio file or microphone using OpenAI's Whisper model.
-        
+         <br>
         Lab 5 - Translate Language: Translate text from one language into another.
   
 -
