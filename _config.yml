@@ -21,6 +21,7 @@ course-info: >- # this means to ignore newlines until "baseurl:"
     resource constrained environments such as embedded systems. The primary target is embedded devices such as Arduino,
     Raspberry PI, Jetson, or Edge TPUs. 
     </p>
+    <p style="text-align: justify;">
     The class is broken into lectures/readings, labs/assignments, and a final project. Throughout this class, students will
     learn techniques such as model quantization, knowledge distillation and hybrid (embedded/cloud inferencing), which are
     instrumental for building efficient machine learning models that can run on power or resource-constrained devices.
