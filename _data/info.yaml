@@ -7,6 +7,7 @@
     day2: Labs
     day2-intro: |
         Lab 0 - Set Up Your Raspberry Pi: Board setup, deploy a model on the Pi. First embedded project!
+        
         Lab 1 - Running a Large Language Model: Run an LLM locally on your Raspberry Pi 5.
         
 -
