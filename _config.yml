@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "EE292D/CS329E: Machine learning on Embedded Systems"
+title: "EE292D/CS329E: Machine Learning on Embedded Systems"
 email: keyi@cs.stanford.edu
 course-info: >- # this means to ignore newlines until "baseurl:"
-    <p>
+    <p style="text-align: center;">
     This is a project-based class where students will learn how to develop machine learning models for execution in
     resource constrained environments such as embedded systems. The primary target is embedded devices such as Arduino,
     Raspberry PI, Jetson, or Edge TPUs. 
