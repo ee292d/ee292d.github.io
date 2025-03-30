@@ -36,7 +36,7 @@
         Introduction to various data formats for ML. ML model quantization motivation, techniques. Quantization-aware training.
     day2: Labs
     day2-intro: >
-        - Lab 6 - Fine-tune and Deploy a Large Language Model: Efficiently fine-tune a large language model, then prepare it for deployment on a Raspberry Pi.
+        Lab 6 - Fine-tune and Deploy a Large Language Model: Efficiently fine-tune a large language model, then prepare it for deployment on a Raspberry Pi.
         
 -
     day1: PEFT techniques and knowledge distillation
@@ -45,7 +45,7 @@
         Knowledge distillation overview and techniques. 
     day2: Labs
     day2-intro: >
-        - Lab 7 - Understand Your Data: Find and understand the datasets needed to train your own models.
+        Lab 7 - Understand Your Data: Find and understand the datasets needed to train your own models.
         
 -
     day1: Hardware for DNN
