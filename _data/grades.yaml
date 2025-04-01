@@ -1,6 +1,6 @@
 -
   name: Labs
-  percent: 30
+  percent: 40
   details: 
     - We will work through the labs in the second class each week
 
@@ -14,8 +14,8 @@
   
 -
   name: Final Project
-  percent: 60
+  percent: 50
   details:
     - Proposal - 10% (2% for initial, 8% for final)
-    - Write up & Presentation - 30%
-    - Results - 20% (relative to proposed)
+    - Write up & Presentation - 25%
+    - Results - 15% (relative to proposed)
