@@ -8,7 +8,7 @@
     day2-intro: |
         - Lab 0 - Set Up Your Raspberry Pi: Board setup, deploy a model on the Pi. First embedded project!
         <br>
-        - Lab 1 - Running a Large Language Model: Run an LLM locally on your Raspberry Pi 5.
+        
         
 -
     day1: Introduction to CNN and tranformer models
@@ -16,9 +16,7 @@
         Introduction to CNN and transformer models and their mathematical implementation and general architecture.
     day2: Labs
     day2-intro: |
-        - Lab 2 - Classify Images: Run an image classification model on your Pi, and fine-tune it to recognize different kinds of objects.
-         <br>
-        - Lab 3 - Locate People and Objects: Run pretrained models to locate people and objects in images, optimize their latency, and train on custom classes.
+         - Lab 1 - Running a Large Language Model: Run an LLM locally on your Raspberry Pi 5.
         
 -
     day1: ML model training and fine-tuning techniques
@@ -26,9 +24,10 @@
          ML model training, fine-tuning with transfer learning, multi-task learning.
     day2: Labs
     day2-intro: |
-        - Lab 4 - Understand Speech: Recognize speech from an audio file or microphone using OpenAI's Whisper model.
+        - Lab 2 - Classify Images: Run an image classification model on your Pi, and fine-tune it to recognize different kinds of objects.
          <br>
-        - Lab 5 - Translate Language: Translate text from one language into another.
+        - Lab 3 - Locate People and Objects: Run pretrained models to locate people and objects in images, optimize their latency, and train on custom classes.
+
   
 -
     day1: ML model quantization
@@ -36,7 +35,10 @@
         Introduction to various data formats for ML. ML model quantization motivation, techniques. Quantization-aware training.
     day2: Labs
     day2-intro: >
-        Lab 6 - Fine-tune and Deploy a Large Language Model: Efficiently fine-tune a large language model, then prepare it for deployment on a Raspberry Pi.
+        - Lab 4 - Understand Speech: Recognize speech from an audio file or microphone using OpenAI's Whisper model.
+         <br>
+        - Lab 5 - Translate Language: Translate text from one language into another.
+        
         
 -
     day1: PEFT techniques and knowledge distillation
@@ -45,6 +47,7 @@
         Knowledge distillation overview and techniques. 
     day2: Labs
     day2-intro: >
+        Lab 6 - Fine-tune and Deploy a Large Language Model: Efficiently fine-tune a large language model, then prepare it for deployment on a Raspberry Pi. 
         Lab 7 - Understand Your Data: Find and understand the datasets needed to train your own models.
         
 -
